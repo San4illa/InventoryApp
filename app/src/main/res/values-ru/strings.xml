@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Учёт продуктов</string>
+
+    <string name="action_insert_dummy_data">Вставить данные</string>
+    <string name="action_delete_all">Удалить все</string>
+
+    <string name="empty_view_text">Нет продуктов</string>
+
+    <string name="editor_product_name">Имя продукта</string>
+    <string name="editor_product_supplier">Имя поставщика</string>
+    <string name="editor_product_supplier_email">Email поставщика</string>
+    <string name="editor_product_quantity">Количество</string>
+    <string name="editor_product_price">Цена</string>
+
+    <string name="editor_activity_title_new_product">Новый продукт</string>
+    <string name="editor_activity_title_edit_product">Редактирование</string>
+    <string name="editor_insert_product_failed">Ошибка сохранения продукта</string>
+    <string name="editor_insert_product_successful">Продукт сохранен</string>
+    <string name="editor_update_product_failed">Ошибка обновления продукта</string>
+    <string name="editor_update_product_successful">Продукт обновлен</string>
+
+    <string name="unsaved_changes_dialog_msg">Отменить изменения и выйти из редактирования?</string>
+    <string name="discard">Отмена</string>
+    <string name="keep_editing">Продолжить</string>
+
+    <string name="delete_dialog_msg">Удалить этот продукт?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="action_save">Сохранить</string>
+    <string name="action_order">Заказать</string>
+    <string name="action_delete">Удалить</string>
+
+    <string name="editor_delete_product_failed">Ошибка удаления продукта</string>
+    <string name="editor_delete_product_successful">Продукт удален</string>
+    <string name="editor_pieces">pcs</string>
+
+    <string name="error_msg_product_name_empty">Пожалуйста введите имя продукта</string>
+    <string name="error_msg_product_quantity_empty">Пожалуйста введите количество продуктов</string>
+    <string name="error_msg_product_price_empty">Пожалуйста введите цену продукта</string>
+    <string name="error_msg_product_supplier_empty">Пожалуйста введите имя заказчика</string>
+    <string name="error_msg_product_supplier_email_empty">Пожалуйста введите email заказчика</string>
+
+    <string name="button_sale">Продать</string>
+    <string name="no_available_products">Нет доступных продуктов</string>
+
+    <string name="email_subject">Поставка продукции</string>
+</resources>

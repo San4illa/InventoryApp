@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/item_margin">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_margin"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ItemTextTitleStyle"
+            android:text="@string/editor_product_name" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/ItemTextContentStyle" />
+
+        <TextView
+            style="@style/ItemTextTitleStyle"
+            android:layout_marginTop="8dp"
+            android:text="@string/editor_product_price" />
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/ItemTextContentStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_margin"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ItemTextTitleStyle"
+            android:text="@string/editor_product_quantity" />
+
+        <TextView
+            android:id="@+id/quantity"
+            style="@style/ItemTextContentStyle" />
+
+        <Button
+            android:id="@+id/sale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:text="@string/button_sale" />
+
+    </LinearLayout>
+
+</LinearLayout>
